@@ -104,7 +104,7 @@ const closeMenuHistory = document.getElementById('close-history')
 const themeButton = document.querySelector('[data-theme-button]')
 let historyArray = []
 
-const calculator = new Calculator(previousOperandTextElement, 
+const calculator = new Script(previousOperandTextElement, 
     currentOperandTextElement)
 
 numberButtons.forEach(button => {
